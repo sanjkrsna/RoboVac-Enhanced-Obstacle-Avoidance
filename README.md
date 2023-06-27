@@ -32,4 +32,4 @@ To make adjustments, simply modify the relevant configuration files based on you
 
 ## <samp>Tech Stack</samp>
 
-## Live Implementation</samp>
+## <samp>Live Implementation</samp>
