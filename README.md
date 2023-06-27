@@ -12,15 +12,20 @@ This GitHub repository contains an advanced robotic vacuum cleaner system with a
 - [Tech Stack](#tech-stack)
 - [Live Implementation](#live-implementation)
 
-
+<a name="introduction"></a>
 ## Introduction
 
+<a name="installation--usage"></a>
 ## Installation & Usage
 
+<a name="configuration"></a>
 ## Configuration
 
+<a name="architecture-overview"></a>
 ## Architecture Overview
 
+<a name="tech-stack"></a>
 ## Tech Stack
 
+<a name="live-implementation"></a>
 ## Live Implementation
