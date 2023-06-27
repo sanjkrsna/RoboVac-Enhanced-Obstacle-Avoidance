@@ -4,7 +4,7 @@
 
 This GitHub repository contains an advanced robotic vacuum cleaner system with an enhanced obstacle avoidance system. The system leverages the power of YOLO-v5 along with Lidar technology for precise obstacle detection and avoidance. Additionally, the repository implements a complete path coverage functionality using a TSP algorithm.
 
-<h2> Table of Content</h2>
+## Table of Content
 - [Introduction](#introduction)
 - [Installation & Usage](#installation--usage)
 - [Configuration](#configuration)
@@ -12,20 +12,14 @@ This GitHub repository contains an advanced robotic vacuum cleaner system with a
 - [Tech Stack](#tech-stack)
 - [Live Implementation](#live-implementation)
 
-<a name="introduction"></a>
 ## Introduction
 
-<a name="installation--usage"></a>
 ## Installation & Usage
 
-<a name="configuration"></a>
 ## Configuration
 
-<a name="architecture-overview"></a>
 ## Architecture Overview
 
-<a name="tech-stack"></a>
 ## Tech Stack
 
-<a name="live-implementation"></a>
 ## Live Implementation
