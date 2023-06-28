@@ -1,5 +1,5 @@
 <div align='center'> 
-  <h1><samp> Robotic Vacccum cleaner with enhanced obstacle avoidance </samp></h1> 
+  <h1><samp> Robotic Vacuum cleaner with enhanced obstacle avoidance </samp></h1> 
 </div> 
 
 <samp>This GitHub repository contains an advanced robotic vacuum cleaner system with an enhanced obstacle avoidance system. The system leverages the power of YOLO along with Lidar technology for precise obstacle detection and avoidance. Additionally, the repository implements a complete path coverage functionality using a TSP algorithm.</samp>
