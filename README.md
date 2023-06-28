@@ -21,21 +21,21 @@ By leveraging the capabilities of YOLO, Lidar, and the CPP algorithm, the projec
 ## <samp>Installation & Usage</samp>
 <samp>
 - Clone this repository into your ROS 2 workspace `src`  directory
-  
+
 ```bash
 cd ~/ros2_ws/src 
 git clone https://github.com/sanj33krsna/RoboVac-Enhanced-Obstacle-Avoidance
 ```
 
 - Build the package and source the underlay installation
-- 
+
 ```bash
 cd ~/ros2_ws
 colcon build
 . install/setup.bash
 ```
 - Launch the simulation with optional Gazebo world file argument
-- 
+
 ```bash
 ros2 launch world:=~/ros2_ws/src/pathfinder/worlds/test.world
 ```
