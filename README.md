@@ -33,12 +33,12 @@ git clone https://github.com/sanj33krsna/RoboVac-Enhanced-Obstacle-Avoidance
 ```bash
 cd ~/ros2_ws
 colcon build
-. install/setup.bash
+source install/setup.bash
 ```
 - Launch the simulation with optional Gazebo world file argument
 
 ```bash
-ros2 launch world:=~/ros2_ws/src/pathfinder/worlds/test.world
+ros2 launch 
 ```
 
 </samp>
