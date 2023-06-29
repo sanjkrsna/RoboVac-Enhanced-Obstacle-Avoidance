@@ -59,7 +59,7 @@ ros2 launch nav2_bringup navigation_launch.py
 
 
 ```bash
-ros2 run imgae_process image_process
+ros2 run image_process image_process
 ```
 
 or
