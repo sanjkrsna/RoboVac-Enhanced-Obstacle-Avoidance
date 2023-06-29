@@ -35,7 +35,7 @@ cd ~/ros2_ws
 colcon build
 source install/setup.bash
 ```
-- Launch the simulation with optional Gazebo world file argument
+- Launch the simulation using the below commands
 
 ```bash
 ros2 launch ros2 launch my_bot launch_sim.launch.py
