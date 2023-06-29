@@ -72,7 +72,8 @@ ros2 launch my_bot launch_all.launch.py
 
 ## <samp>Configuration</samp>
 <samp>
-The Enhanced Obstacle Avoidance System can be easily customized to accommodate various environments and types of robotic vacuum cleaners. To tailor the system's behavior according to your specific needs, you can access the configuration options and parameters in the "config" directory of this repository.
+  
+The Enhanced Obstacle Avoidance System can be easily customized to accommodate various environments and types of robotic vacuum cleaners. To tailor the system's behavior according to your specific needs, you can access the configuration options and parameters in the [config](https://github.com/sanj33krsna/RoboVac-Enhanced-Obstacle-Avoidance/tree/main/my_bot/config) directory of this repository.
 <br>
 To make adjustments, simply modify the relevant configuration files based on your requirements. After making any changes, it is important to rebuild the ROS2 packages to ensure that the system incorporates your customized settings effectively.
 </samp>
