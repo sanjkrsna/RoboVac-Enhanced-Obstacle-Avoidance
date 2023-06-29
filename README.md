@@ -50,11 +50,11 @@ ros2 launch ros2 launch my_bot launch_sim.launch.py
 ```
 
 ```bash
-ros2 launch ros2 launch my_bot launch_sim.launch.py
+ros2 launch slam_toolbox online_async_launch.py params_file:=./src/my_bot/config/mapper_params_online_async.yaml
 ```
 
 ```bash
-ros2 launch slam_toolbox online_async_launch.py params_file:=./src/my_bot/config/mapper_params_online_async.yaml
+ros2 launch nav2_bringup navigation_launch.py
 ```
 
 
@@ -62,7 +62,10 @@ ros2 launch slam_toolbox online_async_launch.py params_file:=./src/my_bot/config
 ros2 run imgae_process image_process
 ```
 
-
+or
+```bash
+ros2 launch my_bot launch_all.launch.py
+```
 
 
 </samp>
