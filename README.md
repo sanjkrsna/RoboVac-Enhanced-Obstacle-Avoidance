@@ -2,6 +2,14 @@
   <h1><samp> Robotic Vacuum cleaner with enhanced obstacle avoidance </samp></h1> 
 </div> 
 
+
+
+https://github.com/sanj33krsna/RoboVac-Enhanced-Obstacle-Avoidance/assets/92753357/ef2fea2c-a762-4ac6-9961-bf71e8077e51
+
+
+
+
+
 <samp>This GitHub repository contains an advanced robotic vacuum cleaner system with an enhanced obstacle avoidance system. The system leverages the power of YOLO along with Lidar technology for precise obstacle detection and avoidance. Additionally, the repository implements a complete path coverage functionality.</samp>
 
 ## <samp>Table of Content</samp>
@@ -35,7 +43,7 @@ cd ~/ros2_ws
 colcon build
 source install/setup.bash
 ```
-- Launch the simulation using the below commands
+- Launch the simulation with optional Gazebo world file argument
 
 ```bash
 ros2 launch ros2 launch my_bot launch_sim.launch.py
@@ -97,9 +105,22 @@ The following is a list of the key components in the tech stack:
 
 ## <samp>Live Implementation</samp>
 
-![1](https://github.com/sanj33krsna/RoboVac-Enhanced-Obstacle-Avoidance/blob/main/Demo/Model.jpeg)
-![2](https://github.com/sanj33krsna/RoboVac-Enhanced-Obstacle-Avoidance/blob/main/Demo/house_map.jpeg)
-![3](https://github.com/sanj33krsna/RoboVac-Enhanced-Obstacle-Avoidance/blob/main/Demo/World.jpeg)
-![4](https://github.com/sanj33krsna/RoboVac-Enhanced-Obstacle-Avoidance/blob/main/Demo/YOLO.jpeg)
 
+https://github.com/sanj33krsna/RoboVac-Enhanced-Obstacle-Avoidance/assets/92753357/62e71892-b337-47af-bb52-07b02ba01abe
 
+<div align= 'center'>
+<img src = 'https://github.com/sanj33krsna/RoboVac-Enhanced-Obstacle-Avoidance/blob/main/Demo/Model.jpeg'>
+<img src = 'https://github.com/sanj33krsna/RoboVac-Enhanced-Obstacle-Avoidance/blob/main/Demo/Screenshot%20from%202023-06-29%2015-45-49.png'>
+<img src = 'https://github.com/sanj33krsna/RoboVac-Enhanced-Obstacle-Avoidance/blob/main/Demo/WhatsApp%20Image%202023-06-29%20at%2012.04.10%20AM(1).jpeg'>
+<img src = 'https://github.com/sanj33krsna/RoboVac-Enhanced-Obstacle-Avoidance/blob/main/Demo/WhatsApp%20Image%202023-06-29%20at%2012.04.10%20AM.jpeg'>
+<img src = 'https://github.com/sanj33krsna/RoboVac-Enhanced-Obstacle-Avoidance/blob/main/Demo/World.jpeg'>
+</div>
+
+## <samp>Credits</samp>
+
+<samp>
+  
+- World : [Automatic Addison](https://automaticaddison.com/)
+- Coverage : [Coverage Path Planning](https://github.com/BirfenArge/path_coverage)
+
+</samp>
