@@ -20,24 +20,46 @@ def generate_launch_description():
     package_name='my_bot' #<--- CHANGE ME
 
     rsp = IncludeLaunchDescription(
-                PythonLaunchDescriptionSource([os.path.join(
-                    get_package_share_directory(package_name),'launch','rsp.launch.py'
-                )]), launch_arguments={'use_sim_time': 'true'}.items()
+        PythonLaunchDescriptionSource([
+            os.path.join(
+                get_package_share_directory(package_name),
+                'launch',
+                'rsp.launch.py'
+            )
+        ]),
+        launch_arguments={'use_sim_time': 'true'}.items()
+    )
+    path_maker = nav2 = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource([
+            os.path.join(
+                get_package_share_directory("path_coverage"),
+                'launch',
+                'path_coverage.launch.py'
+            )
+        ])
+    )
+    gazebo = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource([
+            os.path.join(
+                get_package_share_directory('gazebo_ros'),
+                'launch',
+                'gazebo.launch.py'
+            )
+        ]),
+        launch_arguments={
+            'world': '/home/ros2/ros2_ws/src/my_bot/worlds/house.world'
+        }.items()
     )
 
-    # Include the Gazebo launch file, provided by the gazebo_ros package
-    gazebo = IncludeLaunchDescription(
-                PythonLaunchDescriptionSource([os.path.join(
-                    get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
-              launch_arguments={'world': '/home/ros2/ros2_ws/src/my_bot/worlds/house.world'}.items())
-
-    # Run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you only have a single robot.
-    spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
-                        arguments=[
-                            '-topic', 'robot_description',
-                                   '-entity', 'my_bot'],
-                        output='screen')
-
+    spawn_entity = Node(
+        package='gazebo_ros',
+        executable='spawn_entity.py',
+        arguments=[
+            '-topic', 'robot_description',
+            '-entity', 'my_bot'
+        ],
+        output='screen'
+    )
 
     # Launch them all!
     return LaunchDescription([
