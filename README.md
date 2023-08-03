@@ -1,4 +1,4 @@
-<div align='center'> 
+<div align=''> 
   <h1><samp> Robotic Vacuum cleaner with enhanced obstacle avoidance </samp></h1> 
 </div> 
 
